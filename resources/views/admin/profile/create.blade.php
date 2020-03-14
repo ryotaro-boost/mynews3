@@ -25,7 +25,10 @@
                     <div class="form-group row">
                         <label class="col-md-2">性別</label>
                         <div class="col-md-10">
-                            <input type="text" class="form-control" name="gender" value="{{ old('gender') }}">
+                            <select type="text" class="form-control" name="gender">
+                                <option value="male">男</option>
+                                <option value="female">女</option>
+                            </select>
                         </div>
                     </div>
                     <div class="form-group row">
