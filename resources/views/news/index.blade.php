@@ -2,6 +2,7 @@
 
 @section('content')
     <div class="container">
+        <p>記事</p>
         <hr color="#c0c0c0">
         @if (!is_null($headline))
             <div class="row">
@@ -9,7 +10,6 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="caption mx-auto">
-                                <p>記事</p>
                                 <div class="image">
                                     @if ($headline->image_path)
                                         <img src="{{ asset('storage/image/' . $headline->image_path) }}">
